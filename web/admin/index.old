@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>HACKING ...</title>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+<link rel="icon" type="image/png" href="../favicon.png" />
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("../subpew.jpg");
+  height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 28px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+.borderinfo{
+  letter-spacing: 2px !important;
+}
+.tit{
+  color: yellow !important;}
+</style>
+
+</head>
+<body>
+<div class="bgimg-1">
+  <div class="caption">
+      <div class="type-wrap">
+      <div id="typed-strings"></div>
+      <span id="typed" class="border tit"></span><br><br>
+      <span id="typeds" class="border tit"></span>
+      </div>
+      <br>
+  </div>
+</div>
+<script>
+var typed = new Typed('#typed',{
+        strings:['You are Being <strong>HACKED</strong> !','We are NOT sorry for <strong>YOU</strong> !','DEAL WITH IT !'],
+        typeSpeed: 40,
+        backSpeed: 40,
+        backDelay: 500,
+        startDelay: 0,
+        loop:true,
+        showCursor: false,
+                  });
+var typeds = new Typed('#typeds',{
+        strings:['password','qwerty','azerty','12345678','abc123','monkey','1234567','aa123456',
+        '123456789','111111','sunshine','iloveyou','princess','admin','welcome','abc123','18atcskd2w',
+        '1q2w3e4r','mynoob','987654321','1q2w3e4r','google','zxcvbnm','1q2w3e','superman',
+        'jesus','adobe123','ninja','7777777','zxcvbnm','zaq1zaq1','master','passw0rd','123321','000000','1q2w3e4r5t',],
+        typeSpeed: 32,
+        backSpeed: 32,
+        backDelay: 256,
+        startDelay: 0,
+        loop:true,
+        showCursor: false,
+                  });
+</script>
+</body>
+</html>
